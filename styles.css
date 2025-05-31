@@ -1,0 +1,109 @@
+input::placeholder {
+    color: #aaa !important;
+}
+
+#hero-section{
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(48, 0, 0, 1) 0%, rgba(235, 33, 33, 1) 58%, rgba(255, 105, 105, 1) 97%);
+    height: 100vh;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fd0d0d;
+    --bs-btn-border-color: #fd0d0d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fd0d0d;
+    --bs-btn-hover-border-color: #fd0d0d;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fd0d0d;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #fd0d0d;
+    --bs-btn-disabled-border-color: #fd0d0d;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.heroimg{
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.feature-icon{
+    background-color: gray !important;
+    padding: 5px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+#icons > li>svg{
+    margin-right: 5px !important;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ 
+ .btn-grad2 {background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%)}
+ .btn-grad2 {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    color: black;
+  }
+
+  .btn-grad2:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+.actionbtn{
+    background-color: red !important;
+}
+
+.finaltxt{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.foot{
+    display: flex;
+
+}
